@@ -9,7 +9,7 @@ for (let i = 0; i < 50; i++) {
     
 };
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3VnaXlhayIsImEiOiJja3o2bm9jNnUxMmJkMm9tcHZuMnNrcTVwIn0.bwPeTLfz34HEZgBD6vk-RQ';
+mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN';
 
 var map = new mapboxgl.Map({
  container: 'map',
@@ -31,7 +31,7 @@ for(i = 0; i < locations.length; i++){
     .addTo(map)
 }
 
-// timer
+// This determine how often the locations get updated
 setTimeout(run, 15000);
 }
 
@@ -44,18 +44,3 @@ async function getBusLocations(){
 }
 
 run();
-
-var marker = new mapboxgl.Marker()
-.setLngLat([-71.092761, 42.357575])
-.addTo(map)
-
- var counter = 0;
- function move(){
-   setTimeout(()=>{
-     if (counter >= busStops.length) return;
-    marker.setLngLat(busStops[counter]);
-    counter++;
-    move();
-   }, 1000)
- }
-
