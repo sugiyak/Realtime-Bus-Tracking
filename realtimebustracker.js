@@ -1,6 +1,5 @@
 
 // initial variable declaration
-const LngLat = [];
 const markers = [];
 //set marker colors
 const colors = [];
