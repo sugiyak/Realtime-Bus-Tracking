@@ -1,6 +1,6 @@
 # realTimeBusTracking
 
-An sytem that track buses running in the city of Boston. 
+An sytem that track the locations of the  buses running in the city of Boston.
 
 ## Descripion
 
