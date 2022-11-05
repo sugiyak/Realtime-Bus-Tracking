@@ -12,10 +12,10 @@ Replace YOUR_MAPBOX_TOKEN with your mapbox token. For detail of mapbox token, se
 You can adjest location update interval by modifying setTimeOut function.
 
 ## Files included
-index.html
-pacman.js
-image files of Pacman
-Language used
+README.md
+real-time_bus_tracker.html
+realtimebustracker.js
+style.css
 
 ## Language used
 HTML
