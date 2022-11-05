@@ -3,6 +3,7 @@
 An sytem that track the locations of the  buses running in the city of Boston.
 
 ## Descripion
+This app track busses running in the city of Boston.
 
 Each markers has different colors and they represent different busses. Bus locations are updated as time goes by.
 
