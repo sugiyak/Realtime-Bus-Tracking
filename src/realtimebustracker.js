@@ -8,6 +8,7 @@ for (let i = 0; i < 50; i++) {
     
 };
 
+console.log(process.env.ACCESSTOKEN);
 mapboxgl.accessToken = process.env.ACCESSTOKEN;
 
 var map = new mapboxgl.Map({
