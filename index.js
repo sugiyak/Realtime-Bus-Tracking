@@ -16,5 +16,4 @@ app.get('/', (req, res)=>{
 port = process.env.PORT || 8000;
 app.listen(port, ()=>{
     console.log(`Runninng on port ${port}`);
-    console.log(process.env.ACCESSTOKEN);
 })
