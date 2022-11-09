@@ -9,7 +9,7 @@ module.exports = merge(common, {
     plugins: [
         new webpack.DefinePlugin({
             'process.env': {
-              'ACCESSTOKEN': process.env.ACCESSTOKEN,
+              'ACCESSTOKEN': JSON.stringify(process.env.YOUR_VARIABLE),
             }
           })
         ],
