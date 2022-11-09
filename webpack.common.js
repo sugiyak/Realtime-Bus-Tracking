@@ -2,7 +2,6 @@ const path = require('path');
 const Dotenv = require("dotenv-webpack");
 
 module.exports = {
-    mode: 'production',
     entry: path.resolve(__dirname, 'src/realtimebustracker.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -16,7 +15,4 @@ module.exports = {
             }    
         ]
     },
-    plugins: [
-    new Dotenv({systemvars: true }),
-    ],
 }

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An sytem that track the locations of the  buses running in the city of Boston.",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack.prod.js",
     "start": "node index.js"
   },
   "repository": {
@@ -20,7 +20,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
