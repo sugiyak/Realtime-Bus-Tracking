@@ -7,13 +7,12 @@ This app tracks busses running in the city of Boston.
 
 Each markers has different colors and they represent different busses. Bus locations are updated as time goes by.
 
-##webpack config
+## webpack config
 token in .env file are read through either webpack-dotenv plugin or 
 This app has 3 webpack files. Use webpack.dev.js for development 
 
-## Mapbox Token
-Replace YOUR_MAPBOX_TOKEN with your mapbox token. 
 For detail of mapbox token, see https://docs.mapbox.com/help/getting-started/access-tokens/ .
+
 ### For heroku user
 This app is designed to run on heroku enviromental variable so it should read 
 
