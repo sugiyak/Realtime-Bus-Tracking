@@ -4,6 +4,7 @@
   "description": "An sytem that track the locations of the  buses running in the city of Boston.",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
+    "build-dotenv": "webpack --config webpack.dev.js",
     "start": "node index.js"
   },
   "repository": {
