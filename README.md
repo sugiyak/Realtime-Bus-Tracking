@@ -1,4 +1,4 @@
-# realTimeBusTracking
+# Realtime Bus Tracking App
 
 An app to track the locations of the buses running in the city of Boston.
 
