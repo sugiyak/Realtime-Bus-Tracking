@@ -8,7 +8,6 @@ for (let i = 0; i < 50; i++) {
     
 };
 
-console.log(process.env.ACCESSTOKEN);
 mapboxgl.accessToken = process.env.ACCESSTOKEN;
 
 var map = new mapboxgl.Map({
@@ -24,6 +23,7 @@ async function run(){
     markers.forEach((marker) => marker.remove());
     const locations = await getBusLocations();
     console.log(locations.length)
+    
 //set markers on the map
     for(let i = 0; i < locations.length; i++){
         markers[i] = new mapboxgl.Marker({ color: colors[i] })
